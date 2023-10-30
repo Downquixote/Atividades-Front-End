@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Posicionamento Fixo e Absoluto</title>
+        <meta charset="utf-8">
+        
+        <style type="text/css">
+            body {
+                background: brown;
+            }
+
+            #titulo {
+                font-family: 'Times New Roman', Times, serif;
+                background: blue;
+                font-size: 80px;
+                width: 300px;
+                padding: 20px;
+                border: 1px solid blue;
+                margin-bottom: 20px;
+            }
+
+            #texto {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background: snow;
+                width: 450px;
+                border: 1px solid snow;
+                font-size: 20px;
+                padding: 5px;
+            }
+
+            .fixed {
+                border: 1px solid orange;
+                background: orange;
+                position: fixed;
+            }
+
+            .absolute {
+                position: absolute;
+                border: 1px solid green;
+                background: green;
+                top: 0px;
+                right: 20px;
+            }
+
+            .container {
+                border: 1px solid black;
+                width: 900px;
+                position: relative;
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div id="titulo">
+                Lucas Brandão
+            </div>
+
+            <div>
+
+                <p id="texto">
+                    Com 21 anos de idade, Lucas deu início aos seus estudos sobre tecnologia.
+                </p>
+
+                <p class="absolute">
+                    Ficou noivo aos 20 anos de idade, e se casará aos 22 anos de idade.
+                </p>
+
+                <p class="fixed">
+                    Atualmente ele trabalha em uma empresa logística chamada Ellece.
+                </p>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

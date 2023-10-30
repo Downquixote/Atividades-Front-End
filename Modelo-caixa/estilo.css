@@ -1,0 +1,47 @@
+body {
+    background: bisque;
+}
+
+/*
+    MODELO DE CAIXA HTML/CSS
+*/
+
+.conteudo {
+    background-color: brown;
+    border: 1px solid brown;
+    /*      Para espaçamentos internos na parte superior    */
+    padding-top: 10px;
+    /*      Para espaçamentos internos na lateral direita   */
+    padding-right: 20px;
+    /*      Para espaçamentos internos na parte inferior    */
+    padding-bottom: 15px;
+    /*      Para espaçamentos internos na lateral esquerda  */
+    padding-left: 30px;
+    width: 200px;
+
+    /*      Para espaçamentos EXTERNOS    */
+    margin: 20px;
+
+}
+
+.conteudo2 {
+    background-color: blue;
+    border: 1px solid blue;
+    /*      Para adicionar todos os espaçamentos    */
+    padding: 40px;
+    width: 250px;
+    margin: 20px;
+}
+
+#apresentacao {
+    border: 1px solid gray;
+    background-color: gray;
+    width: 250px;
+    text-align: center;
+    font-style: inherit;
+    margin: 20px;
+}
+
+h4 {
+    margin: 0px;
+}
